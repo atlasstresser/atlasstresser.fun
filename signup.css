@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Signup Section Styling */
+.signup {
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.signup h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.signup label {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #555;
+    text-align: left;
+    width: 100%;
+}
+
+.signup input {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.signup input:focus {
+    border-color: #00bfae;
+    box-shadow: 0 0 8px rgba(0, 191, 174, 0.3);
+    outline: none;
+}
+
+.signup button {
+    background-color: #00bfae;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.signup button:hover {
+    background-color: #009d8f;
+    transform: translateY(-2px);
+}
+
+.signup-message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #00bfae;
+    font-weight: 600;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .signup {
+        padding: 30px 20px;
+    }
+
+    .signup h2 {
+        font-size: 1.8em;
+    }
+
+    .signup input, .signup button {
+        font-size: 0.9em;
+    }
+}
