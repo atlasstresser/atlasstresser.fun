@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Area</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://telegra.ph/file/2aa72263be440acbeb8f9.jpg" type="image/jpg">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Member Area</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="member.php">Member</a></li>
+                    <li><a href="dashboard.php">Dashboard</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Login</h2>
+        <form action="dashboard.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" class="btn-primary">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AtlasStresser. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
