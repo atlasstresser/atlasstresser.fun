@@ -1,0 +1,486 @@
+/* styles.css */
+
+/* styles.css */
+
+/* FAQ Section Styling */
+/* FAQ Section Styling */
+/* FAQ Section Styling */
+#faq {
+    background-color: #1f1f1f; /* Dark background for contrast */
+    color: #e0e0e0; /* Light text color */
+    padding: 50px 0;
+}
+
+#faq .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#faq .block__title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #00c853;/* Accent color */
+}
+
+.content-block {
+    background: #2e2e2e; /* Slightly lighter background for blocks */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.content-block:hover {
+    background: #333; /* Darker background on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.content-block__title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #00c853; /* Accent color */
+    margin-bottom: 10px;
+}
+
+.content-block__paragraph {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .content-block {
+        padding: 15px;
+    }
+
+    .content-block__title {
+        font-size: 1.25rem;
+    }
+
+    .content-block__paragraph {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/* Existing styles */
+/* Font untuk elemen tertentu */
+.promotion form,
+.promotion input[type="text"],
+.promotion .disclaimer,
+.powerful-section .powerful-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Font untuk elemen lain menggunakan Trebuchet MS */
+.header,
+.hero,
+.promotion h2,
+.promotion p,
+.powerful-section .powerful-text h2,
+.unique-section,
+.footer {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Font khusus untuk logo header menggunakan Times New Roman */
+.header-logo {
+    font-family: 'Times New Roman', serif;
+}
+
+/* Font default untuk teks lain menggunakan Nunito */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Promotion Section */
+.promotion {
+    background: url('https://telegra.ph/file/fd263d2cbad862234ac5a.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.promotion h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e2e2e2;
+}
+
+.promotion p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #dcdcdc;
+}
+
+.promotion-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+}
+
+.promotion-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.promotion-content label {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+.promotion-content input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.promotion-content button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.promotion-content button:hover {
+    background-color: #218838;
+}
+
+.promotion-content .disclaimer {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #1c1c1c;
+    padding: 20px 0;
+    border-bottom: 2px solid #00c853;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* styles.css */
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('https://telegra.ph/file/05148997e3c67d5de632b.jpg') no-repeat center center/cover;
+    padding: 20px;
+    height: 100vh; /* Adjust height as needed */
+    color: #fff; /* Adjust text color for contrast */
+}
+
+.hero .hero-text {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.hero .hero-text h2 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 1rem;
+}
+
+.hero .hero-text p {
+    font-size: 1.2rem; /* Adjust size as needed */
+    margin-bottom: 2rem;
+}
+
+.hero .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF; /* Adjust button color */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hero .hero-image {
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #00c853;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.ui.button {
+    padding: 10px 15px;
+    background: #00c853;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.ui.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #00c853;
+}
+
+.ui.button:hover {
+    background: #333;
+}
+
+/* styles.css */
+
+/* Existing styles */
+
+/* Powerful Section */
+.powerful-section {
+    padding: 60px 0;
+    background: #1e1e1e;
+    position: relative;
+    overflow: hidden;
+}
+
+.powerful-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 200, 83, 0.3) 0%, rgba(0, 150, 50, 0.3) 100%);
+    z-index: 0;
+}
+
+.powerful-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.powerful-text {
+    flex: 1;
+    margin-right: 20px;
+    color: #e0e0e0;
+}
+
+.powerful-text h2 {
+    font-size: 2.5rem;
+    color: #00c853;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.powerful-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.powerful-image {
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn-learn-more {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #00c853;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
+
+
+.unique-section {
+    padding: 60px 0;
+}
+
+.unique-section .unique-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.unique-section .unique-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.unique-section .unique-text h2 {
+    font-size: 2rem;
+    color: #00c853;
+}
+
+.unique-section .unique-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.unique-section .unique-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unique-section .unique-text ul li {
+    background: #00c853;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.unique-section .unique-image {
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1c1c1c; /* Dark background for footer */
+    color: #f4f4f4; /* Light text color for readability */
+    padding: 40px 20px; /* Generous padding */
+    border-top: 4px solid #333; /* Thick border on top */
+    text-align: center;
+    position: relative; /* For positioning the icon */
+}
+
+.footer p {
+    margin: 10px 0; /* Space between text elements */
+}
+
+.footer a {
+    color: #f4f4f4; /* Light text color for links */
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer a:hover {
+    color: #00ff00; /* Green color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.footer .social-icon {
+    width: 24px; /* Consistent icon size */
+    height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Align icon with text */
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.footer .social-icon:hover {
+    opacity: 0.8; /* Slightly fade icon on hover */
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+.footer .telegram-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+    border: 1px solid #333; /* Subtle border */
+    padding: 12px 20px; /* Padding around content */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #2a2a2a; /* Slightly lighter background */
+    max-width: 320px; /* Limit width */
+    margin: 0 auto; /* Center the content */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer .telegram-link:hover {
+    background-color: #333; /* Darker background on hover */
+    transform: translateY(-2px); /* Lift element slightly on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px 10px; /* Reduce padding on smaller screens */
+    }
+
+    .footer .social-icon {
+        width: 20px; /* Smaller icons on smaller screens */
+        height: 20px;
+    }
+
+    .footer .telegram-link {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
